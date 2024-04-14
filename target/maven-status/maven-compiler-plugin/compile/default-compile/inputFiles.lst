@@ -1,0 +1,12 @@
+/home/rodrigocordeiro/IdeaProjects/eat-swift-backend/src/main/java/br/com/eatswift/eatswiftbackend/resources/dto/CategoryDto.java
+/home/rodrigocordeiro/IdeaProjects/eat-swift-backend/src/main/java/br/com/eatswift/eatswiftbackend/service/ProductService.java
+/home/rodrigocordeiro/IdeaProjects/eat-swift-backend/src/main/java/br/com/eatswift/eatswiftbackend/resources/ProductResource.java
+/home/rodrigocordeiro/IdeaProjects/eat-swift-backend/src/main/java/br/com/eatswift/eatswiftbackend/resources/dto/ProductDto.java
+/home/rodrigocordeiro/IdeaProjects/eat-swift-backend/src/main/java/br/com/eatswift/eatswiftbackend/repository/ProductRepository.java
+/home/rodrigocordeiro/IdeaProjects/eat-swift-backend/src/main/java/br/com/eatswift/eatswiftbackend/service/CategoryService.java
+/home/rodrigocordeiro/IdeaProjects/eat-swift-backend/src/main/java/br/com/eatswift/eatswiftbackend/resources/HealthResource.java
+/home/rodrigocordeiro/IdeaProjects/eat-swift-backend/src/main/java/br/com/eatswift/eatswiftbackend/resources/CategoryResource.java
+/home/rodrigocordeiro/IdeaProjects/eat-swift-backend/src/main/java/br/com/eatswift/eatswiftbackend/domain/CategoryDomain.java
+/home/rodrigocordeiro/IdeaProjects/eat-swift-backend/src/main/java/br/com/eatswift/eatswiftbackend/repository/CategoryRepository.java
+/home/rodrigocordeiro/IdeaProjects/eat-swift-backend/src/main/java/br/com/eatswift/eatswiftbackend/EatSwiftBackendApplication.java
+/home/rodrigocordeiro/IdeaProjects/eat-swift-backend/src/main/java/br/com/eatswift/eatswiftbackend/domain/ProductDomain.java

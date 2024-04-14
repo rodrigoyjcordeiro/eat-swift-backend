@@ -1,0 +1,16 @@
+br/com/eatswift/eatswiftbackend/resources/ProductResource.class
+br/com/eatswift/eatswiftbackend/EatSwiftBackendApplication.class
+br/com/eatswift/eatswiftbackend/resources/HealthResource.class
+br/com/eatswift/eatswiftbackend/resources/CategoryResource.class
+br/com/eatswift/eatswiftbackend/domain/ProductDomain.class
+br/com/eatswift/eatswiftbackend/domain/CategoryDomain$CategoryDomainBuilder.class
+br/com/eatswift/eatswiftbackend/service/ProductService.class
+br/com/eatswift/eatswiftbackend/repository/ProductRepository.class
+br/com/eatswift/eatswiftbackend/domain/ProductDomain$ProductDomainBuilder.class
+br/com/eatswift/eatswiftbackend/service/CategoryService.class
+br/com/eatswift/eatswiftbackend/resources/dto/ProductDto.class
+br/com/eatswift/eatswiftbackend/resources/dto/CategoryDto$CategoryDtoBuilder.class
+br/com/eatswift/eatswiftbackend/resources/dto/CategoryDto.class
+br/com/eatswift/eatswiftbackend/domain/CategoryDomain.class
+br/com/eatswift/eatswiftbackend/repository/CategoryRepository.class
+br/com/eatswift/eatswiftbackend/resources/dto/ProductDto$ProductDtoBuilder.class
