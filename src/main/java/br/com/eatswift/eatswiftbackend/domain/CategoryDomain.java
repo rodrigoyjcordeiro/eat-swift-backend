@@ -19,12 +19,17 @@ public class CategoryDomain {
 
     @Field(name = "nome")
     private String name;
+
+
+    @Field(name = "imagem_url")
+    private String imageUrl;
+
     public CategoryDomain(String name){
         this.name = name;
     }
 
     public static CategoryDomain fromDto(CategoryDto dto){
-        return CategoryDomain.builder().id(dto.getId()).name(dto.getName()).build();
+        return CategoryDomain.builder().id(dto.getId()).name(dto.getName()).imageUrl(dto.getImageUrl()).build();
     }
 
 }

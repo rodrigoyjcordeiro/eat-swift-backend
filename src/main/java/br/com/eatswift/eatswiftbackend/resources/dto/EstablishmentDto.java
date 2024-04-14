@@ -16,6 +16,8 @@ public class EstablishmentDto {
     private String id;
     private String name;
     private List<String> products = new ArrayList<>();
+    private String idCategory;
+
 
     public EstablishmentDto(EstablishmentDomain domain){
         this.name = domain.getName();
@@ -24,6 +26,7 @@ public class EstablishmentDto {
                 .stream()
                 .map(ProductDomain::getId)
                 .collect(Collectors.toList());
+        this.idCategory = domain.getIdCategory();
     }
 
 }

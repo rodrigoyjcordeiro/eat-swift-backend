@@ -45,4 +45,13 @@ public class EstablishmentService {
         }
     }
 
+    public List<EstablishmentDto> findEstablishmentByIdCategory(String idCategory){
+        List<EstablishmentDomain> establishmentCategory = establishmentRepository.findByIdCategory(idCategory);
+        if(!establishmentCategory.isEmpty()){
+            return establishmentCategory.stream().map(EstablishmentDto::new).collect(Collectors.toList());
+        }else {
+            return Collections.emptyList();
+        }
+    }
+
 }

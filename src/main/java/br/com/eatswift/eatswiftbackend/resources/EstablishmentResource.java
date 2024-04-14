@@ -32,4 +32,9 @@ public class EstablishmentResource {
         return ResponseEntity.ok(service.findProductsByIdEstablishment(id));
     }
 
+    @GetMapping("/{id}/all")
+    public ResponseEntity<List<EstablishmentDto>> findByCategoryId(@PathVariable("id") String id){
+        return ResponseEntity.ok(service.findEstablishmentByIdCategory(id));
+    }
+
 }

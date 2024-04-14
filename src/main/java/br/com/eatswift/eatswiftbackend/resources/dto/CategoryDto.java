@@ -12,11 +12,13 @@ import lombok.*;
 public class CategoryDto {
     private String id;
     private String name;
+    private String imageUrl;
 
     public static CategoryDto fromDomain(CategoryDomain domain){
         return CategoryDto.builder()
                 .id(domain.getId())
                 .name(domain.getName())
+                .imageUrl(domain.getImageUrl())
                 .build();
     }
 
